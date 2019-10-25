@@ -5,9 +5,120 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align:center;
+  background-color:antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.row{
+    width:100%;
+    display: inline-block;
+   text-align:center; 
+ 
+}
+#newRow{
+width:280px;
+}
+#hRow{
+    width:210px;
+}
+#down{
+    display:block;
+ background-color:black;
+ color:white;
+ border:0;
+ width:280px;
+ text-align:right;
+}
+.btn{
+     
+    width :70px;
+    height:70px;
+   display: inline-block; 
+   font-size:x-large;
+   font-weight:700;
+   border:outset;
+   margin-top:0px;
+    
+}
+.App{
+    margin-top:1%;
+text-align:center;
+width:290px;
+border:thin;
+display: inline-block;
+
+background-color:black;
+
+}
+#up{
+    color:orange;
+   background-color:black;
+   border:0; 
+   text-align:right;
+   width:280px;
+}
+
+#display{
+    width:280px;
+   height:70px;
+     margin-bottom:0px;
+    padding-bottom:2px;
+     background:black;
+     color:white;
+  display: inline-block;
+
+  font-family:'Agency FB';
+  font-weight:400;
+  font-size:x-large;
+}
+
+#clear{
+    width:140px;
+    background-color:red;
+  
+}
+#equals{
+   height:140px;
+  background-color:midnightblue;
+}
+#zero{
+  width:140px;
+  
+}
+
+
+#divide{
+ background-color:steelblue;
+}
+#multiply{
+background-color:steelblue;
+}
+#subtract{
+background-color:steelblue;
+
+}
+#add {
+    background-color: steelblue;
+}
+
+
+
+/*@media( max-width:600px) {
+    #newRow {
+        width: 280px;
+    }
+
+    #hRow {
+        width: 210px;
+    }
+    .btn{
+
+    }
+}*/
+    
